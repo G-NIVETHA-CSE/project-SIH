@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('A day in the life of a farmer_.jpg');
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.8);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+nav button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.farmer-info, .investment-info {
+    width: 45%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.farmer-info h2, .investment-info h2 {
+    color: #4CAF50;
+}
+
+.farmer-info p, .investment-info p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Invest in Farmers Section */
+.search-farmer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-farmer input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    width: 300px;
+}
+
+.search-farmer button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+#farmerDetails {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#farmerDetails img {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#investNowBtn {
+    background-color: #4CAF50;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* History Section */
+.history-content {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.history-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-content th, .history-content td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.history-content th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.history-content tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#profile {
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-card {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: left;
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-card h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.profile-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 5px 0;
+}

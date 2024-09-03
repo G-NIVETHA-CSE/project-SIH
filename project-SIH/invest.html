@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor Dashboard - Invest On Farmers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button onclick="location.href='index.html';">Home</button>
+            <button onclick="location.href='invest.html';">Invest On Farmers</button>
+            <button onclick="location.href='history.html';">History</button>
+            <button onclick="location.href='profile.html';">Profile</button> 
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Invest in Farmers</h1>
+            <div class="search-farmer">
+                <input type="text" id="farmerSearch" placeholder="Search for a farmer...">
+                <button id="searchBtn">Search</button>
+            </div>
+            <div id="farmerDetails" class="hidden">
+                <img id="farmerImage" src="" alt="Farmer Image">
+                <h2 id="farmerName"></h2>
+                <p id="farmerDescription"></p>
+                <p><strong>Amount Needed: </strong>$<span id="investmentAmount"></span></p>
+                <button id="investNowBtn">Invest Now</button>
+                <button id="viewHistoryBtn">View History</button> 
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>

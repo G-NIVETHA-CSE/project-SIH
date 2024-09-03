@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investor Dashboard - History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button onclick="location.href='index.html';">Home</button>
+            <button onclick="location.href='invest.html';">Invest On Farmers</button>
+            <button onclick="location.href='history.html';">History</button>
+            <button onclick="location.href='profile.html';">Profile</button>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Investment History</h1>
+            <div class="history-content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Investor Name</th>
+                            <th>Farmer Name</th>
+                            <th>Amount Invested ($)</th>
+                            <th>Profit Earned ($)</th>
+                            <th>Date of Investment</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historyTableBody">
+                       
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
